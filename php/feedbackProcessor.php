@@ -24,7 +24,8 @@ load Feedbacks.xml.");
  $xml->asXml('./data/feedbacks.xml');
     
      echo "Hello from PHPyz!";
-    
+    header("Location: ../thankyou.html");
+
 } 
 
 else {
