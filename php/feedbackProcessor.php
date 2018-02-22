@@ -1,27 +1,9 @@
 <?php
 // PHP code goes here
-echo "Hello from PHP!"
-  
+echo "Hello from PHPx!";
+ 
   if (isset($_POST['submit'])) {
-// form data processing goes here
-} else {
- // nothing happened -- go back to feedback form
- header("Location: ../feedback.html");
-
-}
-
-/*if (isset($_POST['submit'])) {
-$module = $_POST['module'];
- $semester = $_POST['semester'];
- $text = $_POST['text'];
- $rating = $_POST['rating'];
-} else {
- // nothing happened -- go back to feedback form
- header("Location: ../feedback.html");
-}
-
-
-if (isset($_POST['submit'])) {
+    echo "Hello from PHPy!";
 $module = $_POST['module'];
  $semester = $_POST['semester'];
  $text = $_POST['text'];
@@ -40,10 +22,17 @@ load Feedbacks.xml.");
  $feedback->addChild('rating', $rating);
 // save the whole modified XML
  $xml->asXml('./data/feedbacks.xml');
-} else {
+    
+     echo "Hello from PHPyz!";
+    
+} 
+
+else {
  // nothing happened -- go back to feedback form
- header("Location: ../feedback.html");
+ header("Location: ./feedback.html");
+
+echo "no submit!";
 }
-  */
+
   
 ?>
